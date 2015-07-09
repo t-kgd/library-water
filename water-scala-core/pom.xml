@@ -17,6 +17,16 @@
             <url>file://${internal.repo.directory}</url>
         </repository>
     </distributionManagement>
+    <repositories>
+        <repository>
+            <id>kgd-mvn-repo</id>
+            <url>http://t-kgd.github.io/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
