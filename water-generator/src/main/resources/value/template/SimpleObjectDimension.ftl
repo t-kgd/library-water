@@ -26,7 +26,7 @@ package ${packageLevel.java};
 import jp.gr.java_conf.kgd.library.water.java.core.template.DataObjectBase;
 
 /**
- * 値の変更が可能な{@link MutableSize2}の実装。
+ * 値の変更が可能な{@link MutableObjectSize2}の実装。
  *
  * この実装のアクセッサとミューテータは防御的コピーを行いません。アクセッサはフィールドの参照をそのまま返し、ミューテータは引数の参照をそのままフィールドに設定します。
  * {@code T}が不変でない場合は注意してください。
