@@ -5,7 +5,7 @@ Java SE 8向けライブラリを作成するプロジェクト。Scala実装も
 Java SE 8向けPOJOライブラリ。
 
 ### scala-core
-java-coreのScala実装。
+java-coreのインターフェースに暗黙変換可能なScalaインターフェースとその実装。
 
 ### generator
 コードジェネレータ。
