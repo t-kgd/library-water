@@ -41,7 +41,7 @@ public class ObjectWrapperBase<T> {
     /**
      * コンストラクタ。
      *
-     * @param wrapped
+     * @param wrapped ラップ対象。
      */
     protected ObjectWrapperBase(T wrapped) {
         this.wrapped = wrapped;
